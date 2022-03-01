@@ -101,7 +101,7 @@ const Shop = () => {
           <div className="container-fluid mt-5">
               <div className="container">
               <div className="row">
-                <div className="col-2 col-sm-12 filter_new">
+                <div className="col-lg-2 col-sm-12 filter_new">
                     <h4 className=" customh4">Filter by categories</h4>
                     <ul className="cat-fil-list">
                         <Checkbox
@@ -123,7 +123,7 @@ const Shop = () => {
                     </div>
                 </div>
 
-                <div className="col-10 col-md-9 col-sm-12">
+                <div className="col-lg-10 col-md-9 col-sm-12">
                     <div className="row">
                         {filteredResults.map((product, i) => (
                            
